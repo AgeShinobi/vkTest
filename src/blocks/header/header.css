@@ -1,0 +1,14 @@
+.header {
+  margin: 0;
+  padding: 30px 0 30px 30px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(8 40 84);
+
+  font-family: 'Inter', Arial, sans-serif;
+
+  /* Линия в конце header */
+  border-bottom: 1px solid rgba(84,84,84, .7);
+}

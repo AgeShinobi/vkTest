@@ -1,0 +1,20 @@
+.page {
+  background-color: #2949b1;
+  color: #ffffff;
+  font-weight: 400;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* При ширине дисплея больше 1280px появятся уши и контент не растянется на всю ширину */
+  padding: 0 calc((100% - 1280px)/2);
+
+}
+
+@media screen and (max-width: 1148px) {
+  .page {
+    padding: 0;
+  }
+}
