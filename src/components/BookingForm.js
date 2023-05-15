@@ -41,6 +41,7 @@ function BookingForm({ onSubmit }) {
       comment: comment
     }
     console.log(JSON.stringify(formData));
+    handleClearForm();
   }
   function handleClearForm() {
     setTower('');
